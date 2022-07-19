@@ -1,0 +1,119 @@
+body {
+  background-image: url("gora.png");
+  background-repeat: no-repeat;
+  max-width: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-bottom: 200px;
+}
+
+.shapka {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  color: black;
+  text-transform: uppercase;
+  position: static;
+  top: 0px;
+}
+.enterAge {
+  text-align: center;
+  border: 2px solid;
+  padding: 10px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+.pryvit {
+  text-transform: uppercase;
+  text-align: center;
+}
+.info div {
+  border: 2px solid;
+  margin: 15px 15px;
+  width: 200px;
+}
+.info div:hover {
+  background-color: azure;
+  opacity: 75%;
+}
+
+.info {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.trRg {
+  color: orangered;
+  text-transform: uppercase;
+}
+.trRg:link {
+  text-decoration: none;
+}
+.trRg:hover {
+  font-size: 24px;
+  font-weight: 700;
+}
+.mocniy {
+  width: 75%;
+  margin: 70px auto;
+  text-align: center;
+}
+.typeOf {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.typeOf div {
+  margin: 5px 50px;
+  border: 2px solid;
+  width: 250px;
+  height: 300px;
+}
+strong {
+  color: rgb(96, 174, 12);
+}
+
+.sis:link {
+  text-decoration: none;
+  padding: 5px 8px;
+}
+.sis:hover {
+  text-decoration: none;
+  padding: 5px 8px;
+  background-color: azure;
+  opacity: 75%;
+  color: black;
+}
+.reg {
+  margin: 50px 70px;
+}
+.fReg {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+input[type="text"],
+select {
+  width: 50%;
+  height: 35px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid;
+  border-radius: 4px;
+}
+input[type="submit"] {
+  width: 50%;
+  height: 35px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid;
+  border-radius: 4px;
+  background-color: #4caf50;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
